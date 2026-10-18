@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Dashboard</title>
+</head>
+<body>
+
+<h1>Flask Works!</h1>
+
+{% for q in questions %}
+<div>
+    <h3>{{ q.question }}</h3>
+    <p>{{ q.answer }}</p>
+</div>
+{% endfor %}
+
+</body>
+</html>
